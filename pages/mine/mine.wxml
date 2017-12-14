@@ -1,0 +1,10 @@
+<!--pages/mine/mine.wxml-->
+<view class='vip'>
+{{me}}
+</view>
+<view class='vips' wx:for="{{ users }}">
+{{index+1}}  :   {{item.message}}
+</view>
+<view>
+<button bindtap="regist" class='btn'>注册</button>
+</view>

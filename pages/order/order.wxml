@@ -1,0 +1,49 @@
+<!--pages/order/order.wxml-->
+<!-- <view class='door'>
+{{ doorbar }}
+</view>
+<view wx:if="{{bars}}" class='has'>
+{{ bars }}
+</view>
+<view wx:else class='no'>没有导航内容！！！</view> -->
+<view class='app'>
+  <view class='p'></view>
+  <view class='span'></view>
+  <view class='vip'>
+    <image src='../../images/vip.png' class='vipimg'></image>
+  </view>
+  <input type='text' class='write' value='NO 0 0 0 2 1 4'></input>
+  <view class='list'>
+    <view class='li'>
+        <image src='../../images/icon-center01.png' class='liimg'></image>
+        <text>{{ uname.nickName }}</text>   
+    </view>
+    <view class='li'>
+        <image src='../../images/icon-center02.png' class='liimg'></image>
+        <text>我的积分</text>   
+    </view>
+    <view class='li'>
+        <image src='../../images/icon-center03.png' class='liimg'></image>
+        <text>物流信息</text>   
+    </view>
+    <view class='li'>
+        <image src='../../images/icon-center04.png' class='liimg'></image>
+        <text>我的优惠券</text>   
+    </view>
+    <view class='li'>
+        <image src='../../images/icon-center05.png' class='liimg'></image>
+        <text>清除缓存</text>   
+    </view>
+    <view class='li'>
+        <image src='../../images/icon-center06.png' class='liimg'></image>
+        <text>小程序</text>   
+    </view>
+     <view class='about'>
+        <view>
+          <text>版权归属地：北京海淀</text>
+        </view>
+        <text bindtap='call'>联系客服请拨打电话：17600176149</text>   
+    </view>
+  
+  </view>
+</view>

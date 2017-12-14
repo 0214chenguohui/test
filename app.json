@@ -1,0 +1,38 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/order/order",
+    "pages/mine/mine"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#8a8a8a",
+    "selectedColor": "#1296db",
+    "backgroundColor": "#f5f4f4",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "优惠券",
+        "iconPath": "images/food_nor.png",
+        "selectedIconPath": "images/food_sel.png"
+      },
+      {
+        "pagePath": "pages/order/order",
+        "text": "门店导航",
+        "iconPath": "images/index_nor.png",
+        "selectedIconPath": "images/index_sel.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "会员中心",
+        "iconPath": "images/me_nor.png",
+        "selectedIconPath": "images/me_sel.png"
+      }
+    ]
+  }
+}
